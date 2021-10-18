@@ -1,0 +1,306 @@
+body {
+	font-family: "Roboto", sans-serif;
+	line-height: 1.9;
+	color: #8c8c8c;
+	position: relative;
+}
+
+.my-cont {
+	border: 1px solid #eee;
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	font-family: "Roboto", sans-serif;
+	color: #000;
+}
+
+a {
+	-webkit-transition: .3s all ease;
+	-o-transition: .3s all ease;
+	transition: .3s all ease;
+	-moz-transition: .3s all ease;
+	-ms-transition: .3s all ease;
+}
+
+a,
+a:hover {
+	text-decoration: none !important;
+}
+
+.text-black {
+	color: #000;
+}
+
+.content {
+	padding: 1rem 0;
+}
+
+.contact-area {
+	padding: 0;
+}
+
+.form-area {
+	padding: 0;
+}
+
+.heading {
+	font-size: 2.5rem;
+	font-weight: 900;
+}
+
+.form-control {
+	border: none;
+	border-bottom: 1px solid #ccc;
+	padding-left: 0;
+	padding-right: 0;
+	border-radius: 0;
+	background: none;
+}
+
+.form-control:active,
+.form-control:focus {
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border-color: #000;
+}
+
+.col-form-label {
+	color: #000;
+	font-size: 13px;
+}
+
+.btn,
+.form-control,
+.custom-select {
+	height: 45px;
+}
+
+.custom-select:active,
+.custom-select:focus {
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border-color: #000;
+}
+
+.btn {
+	border: none;
+	border-radius: 0;
+	font-size: 12px;
+	margin-right: 1rem;
+	letter-spacing: .2rem;
+	text-transform: uppercase;
+}
+
+.btn.btn-primary {
+	background: #34746b;
+	color: #fff;
+	border-radius: 10px !important;
+	padding: 15px 20px;
+	-webkit-border-radius: 10px !important;
+	-moz-border-radius: 10px !important;
+	-ms-border-radius: 10px !important;
+	-o-border-radius: 10px !important;
+}
+
+.btn:hover {
+	color: #fff;
+}
+
+.btn:active,
+.btn:focus {
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.img-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 23%;
+}
+
+.part--2 {
+	display: none;
+}
+
+.sub-sub-head {
+	color: #050505;
+	font-size: 13px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.contact-wrap .col-form-label {
+	font-size: 14px;
+	color: #837e7e;
+	margin: 0 0 10px 0;
+	display: inline-block;
+	padding: 0;
+}
+
+.contact-wrap .form,
+.contact-wrap .contact-info {
+	height: 100%;
+	padding: 20px;
+	padding-left: 40px;
+}
+
+.head {
+	font-weight: bold;
+	margin-left: 45px;
+	margin-bottom: 3rem;
+}
+
+.sub-head {
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+::-webkit-input-placeholder {
+	color: #c4c4c4 !important;
+	font-weight: 300;
+}
+
+:-ms-input-placeholder {
+	color: #c4c4c4 !important;
+	font-weight: 300;
+}
+
+::placeholder {
+	color: #c4c4c4 !important;
+	font-weight: 300;
+}
+
+.select-label {
+	color: #111;
+	text-align: left;
+	font-size: 17px;
+}
+
+.many {
+	height: 40px;
+	outline: 0;
+	width: 100%;
+	padding: 0 10px;
+	border: 1.5px solid;
+}
+
+.contact-wrap .contact-info {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.contact-wrap .contact-info ul li {
+	margin-bottom: 15px;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.contact-wrap .contact-info ul li .wrap-icon {
+	font-size: 20px;
+	color: #fff;
+	margin-top: 5px;
+}
+
+.contact-wrap .contact-info {
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.contact-wrap .contact-info a {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+@media (max-width: 1199.98px) {
+	.contact-wrap .contact-info {
+		height: 100% !important;
+	}
+}
+
+@media (max-width: 767px) {
+	.contact-wrap .contact-info {
+		display: none
+	}
+}
+
+.contact-wrap .contact-info h3 {
+	color: #fff;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+label.error {
+	display: none;
+	font-size: 12px;
+	color: red;
+}
+
+label.success {
+	display: none;
+	font-size: 12px;
+	color: #55A44E;
+}
+
+.loading {
+	display: none;
+	position: fixed;
+	z-index: 999;
+	height: 2em;
+	width: 2em;
+	overflow: show;
+	margin: auto;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.shapes-4 {
+	width: 40px;
+	height: 40px;
+	color: #ffbd4f;
+	background: conic-gradient(from -45deg at top 20px left 50%, #0000, currentColor 1deg 90deg, #0000 91deg), conic-gradient(from 45deg at right 20px top 50%, #0000, currentColor 1deg 90deg, #0000 91deg), conic-gradient(from 135deg at bottom 20px left 50%, #0000, currentColor 1deg 90deg, #0000 91deg), conic-gradient(from -135deg at left 20px top 50%, #0000, currentColor 1deg 90deg, #0000 91deg);
+	animation: sh4 1.5s infinite cubic-bezier(0.3, 1, 0, 1);
+}
+
+@keyframes sh4 {
+	50% {
+		width: 60px;
+		height: 60px;
+		transform: rotate(180deg)
+	}
+	100% {
+		transform: rotate(360deg)
+	}
+}
+
+.loading:before {
+	content: '';
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: radial-gradient(rgba(20, 20, 20, .8), rgba(0, 0, 0, .8));
+	background: -webkit-radial-gradient(rgba(20, 20, 20, .8), rgba(0, 0, 0, .8));
+}
